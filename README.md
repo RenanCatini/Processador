@@ -1,6 +1,6 @@
 # Processador
 
-Este repositório reúne duas versões de um processador multiciclo de 16 bits implementado em **Verilog**, desenvolvido para a disciplina de Arquitetura de Computadores. A meta é demonstrar a evolução do projeto desde uma versão inicial mais simples até uma versão com recursos adicionais e maior complexidade.
+Este repositório reúne duas versões de um processador multiciclo de 16 bits implementado em **Verilog**, desenvolvido para a disciplina de Elementos da Interface Hardware Software. A meta é demonstrar a evolução do projeto desde uma versão inicial mais simples até uma versão com recursos adicionais e maior complexidade.
 
 ---
 
