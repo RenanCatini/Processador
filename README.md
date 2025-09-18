@@ -9,11 +9,11 @@ Os projetos mostram a evolução do design e implementação de um processador m
 
 - **ProcessadorV1**  
   Primeira versão do processador, com implementação inicial das instruções básicas.  
-  Repositório original: [ProcessadorV1](https://github.com/RenanCatini/Processador/ProcessadorV1)
+  Repositório original: [ProcessadorV1](https://github.com/RenanCatini/Processador/tree/main/ProcessadorV1)
 
 - **ProcessadorV2**  
   Versão aprimorada do processador, incluindo melhorias na arquitetura, suporte a novas instruções de desvio e maior modularidade no código.  
-  Repositório original: [ProcessadorV2](https://github.com/RenanCatini/Processador/ProcessadorV2)
+  Repositório original: [ProcessadorV2](https://github.com/RenanCatini/Processador/tree/main/ProcessadorV2)
 
 ---
 
