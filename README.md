@@ -28,9 +28,8 @@ Os projetos mostram a evolução do design e implementação de um processador m
 ## 📖 Como usar
 
 1. Acesse a versão desejada (`ProcessadorV1` ou `ProcessadorV2`).
-2. Abra o projeto em seu ambiente de simulação (ex.: ModelSim ou Quartus).
-3. Compile os módulos Verilog.
-4. Execute a simulação para verificar o funcionamento das instruções implementadas.
+2. Compile os módulos Verilog.
+3. Execute a simulação para verificar o funcionamento das instruções implementadas.
 
 ---
 
