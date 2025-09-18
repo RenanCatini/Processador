@@ -1,56 +1,40 @@
-# Processador Didático MIPS - V1 e V2
+# Projetos de Processador (V1 e V2)
 
-Este repositório contém as duas versões do projeto de um processador didático com arquitetura MIPS, desenvolvido como parte de estudos em Arquitetura e Organização de Computadores. Aqui você encontrará a evolução de um processador monociclo (V1) para uma versão com pipeline (V2).
-
-## Sobre o Projeto
-
-O objetivo principal deste projeto foi aplicar os conceitos teóricos de arquitetura de computadores na prática, utilizando a linguagem de descrição de hardware VHDL. O processador implementa um subconjunto do conjunto de instruções MIPS, uma arquitetura RISC clássica e amplamente utilizada para fins acadêmicos.
+Este diretório reúne duas versões de um processador desenvolvido em **Verilog** como parte dos estudos de **Arquitetura e Organização de Computadores**.  
+Os projetos mostram a evolução do design e implementação de um processador multiciclo de 16 bits.
 
 ---
 
-## Versões
+## 📂 Estrutura
 
-O projeto foi dividido em duas grandes etapas, cada uma contida em seu respectivo diretório.
+- **ProcessadorV1**  
+  Primeira versão do processador, com implementação inicial das instruções básicas.  
+  Repositório original: [ProcessadorV1](https://github.com/RenanCatini/Processador/ProcessadorV1)
 
-### ProcessorV1: Arquitetura Monociclo
-
-A primeira versão (`ProcessadorV1`) implementa um processador MIPS funcional com uma arquitetura **monociclo**. Nessa abordagem, cada instrução é executada em um único ciclo de clock.
-
-- **Características Principais:**
-    - **Arquitetura:** Monociclo.
-    - **Linguagem:** VHDL.
-    - **Funcionalidades:** Implementa instruções aritméticas (add, sub), lógicas (and, or), de acesso à memória (lw, sw) e de desvio (beq).
-    - **Componentes:** Unidade de Controle, Unidade Lógica Aritmética (ULA), Banco de Registradores, Memória de Instrução e Memória de Dados.
-
-É uma excelente base para entender o funcionamento fundamental de um processador, o fluxo de dados e o papel de cada componente.
-
-:link: **Repositório Original:** [https://github.com/RenanCatini/ProcessadorV1](https://github.com/RenanCatini/ProcessadorV1)
-
-### ProcessorV2: Arquitetura com Pipeline
-
-A segunda versão (`ProcessadorV2`) representa a evolução do projeto original, introduzindo uma arquitetura com **pipeline de 5 estágios**. O objetivo foi aumentar a vazão (throughput) do processador, permitindo que múltiplas instruções sejam executadas simultaneamente em diferentes estágios.
-
-- **Melhorias e Novas Características:**
-    - **Arquitetura:** Pipeline de 5 estágios (Busca, Decodificação, Execução, Acesso à Memória, Escrita).
-    - **Tratamento de Conflitos:** Implementação de mecanismos para lidar com conflitos de dados (data hazards) e conflitos de controle (control hazards), essenciais para o funcionamento correto do pipeline.
-    - **Desempenho:** Aumento significativo no número de instruções executadas por unidade de tempo em comparação com a versão monociclo.
-
-Esta versão é mais complexa e demonstra técnicas avançadas de arquitetura de computadores para otimização de desempenho.
-
-:link: **Repositório Original:** [https://github.com/RenanCatini/ProcessadorV2](https://github.com/RenanCatini/ProcessadorV2)
+- **ProcessadorV2**  
+  Versão aprimorada do processador, incluindo melhorias na arquitetura, suporte a novas instruções de desvio e maior modularidade no código.  
+  Repositório original: [ProcessadorV2](https://github.com/RenanCatini/Processador/ProcessadorV2)
 
 ---
 
-## Como Usar
+## 🚀 Objetivo
 
-Cada diretório (`ProcessadorV1` e `ProcessadorV2`) contém seus próprios arquivos de código-fonte em VHDL. Para simular ou sintetizar os projetos, utilize uma ferramenta de desenvolvimento de hardware compatível com VHDL, como:
+- Explorar os conceitos de **caminho de dados** e **unidade de controle**.  
+- Implementar e simular um processador multiciclo de 16 bits.  
+- Comparar a evolução entre as duas versões (V1 e V2).
 
-- ModelSim
-- Xilinx Vivado
-- GHDL (alternativa open-source)
+---
 
-Consulte o conteúdo de cada diretório para obter os arquivos específicos e as entidades de nível superior (`top-level entities`) de cada projeto.
+## 📖 Como usar
 
-## Autor
+1. Acesse a versão desejada (`ProcessadorV1` ou `ProcessadorV2`).
+2. Abra o projeto em seu ambiente de simulação (ex.: ModelSim ou Quartus).
+3. Compile os módulos Verilog.
+4. Execute a simulação para verificar o funcionamento das instruções implementadas.
 
-* **Renan Catini** - [GitHub](https://github.com/RenanCatini)
+---
+
+## 📌 Observação
+
+Este repositório serve apenas para **organizar e centralizar** as duas versões do projeto.  
+Para detalhes de implementação, consulte cada versão individualmente nos diretórios correspondentes.
